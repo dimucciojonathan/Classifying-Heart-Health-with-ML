@@ -64,5 +64,5 @@ Logistic Regression: 79% accuracy
 
 Random Forest: 78% accuracy
 
-It seems that these results help confirm the words of many Data Scientists: chances are a simple model will get the job done just fine. 
+It seems that these results help confirm the words of many Data Scientists: Usually a simple model will get the job done just fine. 
 
