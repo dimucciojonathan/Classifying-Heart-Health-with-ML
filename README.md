@@ -15,7 +15,9 @@ It's not extremely clear what each of the variables represent, so I will explain
 4. trestbps: resting blood pressure (mmHg)
 5. chol: cholesterol in mg/dl
 6. fbs: fasting blood sugar:
+
 	'> 120 = 1'
+	
 	'< 120 = 0'
 7. restecg: resting electrocardiographic results 
 	- Value 0: normal 
@@ -57,7 +59,9 @@ My next step was to test how accurate this logistic regression was on the origin
 The random forest (similar to decision tree) method came in at 78% accuracy, a bit worse than the logistic regression. The SVM had a 81% accuracy. The confusion matrix shows that each method was only off by a couple of observations from one another.
 
 Support Vector Machine: 81% accuracy
+
 Logistic Regression: 79% accuracy
+
 Random Forest: 78% accuracy
 
 It seems that these results help confirm the words of many Data Scientists: chances are a simple model will get the job done just fine. 
